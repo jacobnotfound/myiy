@@ -4890,7 +4890,7 @@ CMDs[#CMDs + 1] = {NAME = 'idlefling / flingscript', DESC = 'Loads a script that
 CMDs[#CMDs + 1] = {NAME = 'cmdv1', DESC = 'Loads CMD v1'}
 CMDs[#CMDs + 1] = {NAME = 'cmd-y', DESC = 'Loads CMD-Y (rip 💔🥀)'}
 CMDs[#CMDs + 1] = {NAME = 'cmdv3', DESC = 'Loads CMD v3'}
-CMDs[#CMDs + 1] = {NAME = 'cmd-x', DESC = 'Loads CMD-X (VERY DIFFERENT FROM CMD v1/Y/v3'}
+CMDs[#CMDs + 1] = {NAME = 'cmd-x', DESC = 'Loads CMD-X (VERY DIFFERENT FROM CMD v1/Y/v3)'}
 
 -- wait()
 
