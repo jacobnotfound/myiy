@@ -4887,6 +4887,7 @@ CMDs[#CMDs + 1] = {NAME = 'reloadplugin [name]', DESC = 'Reloads a plugin'}
 CMDs[#CMDs + 1] = {NAME = 'addallplugins / loadallplugins', DESC = 'Adds all available plugins from the workspace folder'}
 CMDs[#CMDs + 1] = {NAME = 'sirius', DESC = 'Loads Sirius'}
 CMDs[#CMDs + 1] = {NAME = 'idlefling / flingscript', DESC = 'Loads a script that can fling people while idle'}
+CMDs[#CMDs + 1] = {NAME = 'opfinality', DESC = 'Loads OPFinality'}
 CMDs[#CMDs + 1] = {NAME = 'cmdv1', DESC = 'Loads CMD v1'}
 CMDs[#CMDs + 1] = {NAME = 'cmd-y', DESC = 'Loads CMD-Y (rip 💔🥀)'}
 CMDs[#CMDs + 1] = {NAME = 'cmdv3', DESC = 'Loads CMD v3'}
@@ -12623,6 +12624,10 @@ end)
 
 addcmd("idlefling", {"flingscript"}, function(args, speaker)
          loadstring(game:HttpGet("https://github.com/Nickyangtpe/Roblox-scripts/raw/refs/heads/main/FE%20Fling%20Script", true))()
+end)
+
+addcmd("OPFinality", {}, function(args, speaker)
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/NanashiTheNameless/ScriptPack/refs/heads/main/!%20%5BFE%5D%20OPFinality%20Gui%20%5BBEST%5D.lua", true))()
 end)
 
 addcmd("cmd-x", {}, function(args, speaker)
