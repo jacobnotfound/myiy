@@ -10597,7 +10597,7 @@ end)
 
 
 spamming = false
-spamspeed = 0.0001
+spamspeed = 1
 addcmd('spam',{},function(args, speaker)
 	spamming = true
 	local spamstring = getstring(1, args)
