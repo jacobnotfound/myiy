@@ -4892,7 +4892,7 @@ CMDs[#CMDs + 1] = {NAME = 'cmdv1', DESC = 'Loads CMD v1'}
 CMDs[#CMDs + 1] = {NAME = 'cmd-y', DESC = 'Loads CMD-Y (rip 💔🥀)'}
 CMDs[#CMDs + 1] = {NAME = 'cmdv3', DESC = 'Loads CMD v3'}
 CMDs[#CMDs + 1] = {NAME = 'cmd-x', DESC = 'Loads CMD-X (VERY DIFFERENT FROM CMD v1/Y/v3)'}
-CMDs[#CMDs + 1] = {NAME = 'kahscript', DESC = 'Loads a random K.A.H script I found online.'}
+CMDs[#CMDs + 1] = {NAME = '', DESC = 'Loads a random K.A.H script I found online.'}
 
 -- wait()
 
@@ -12648,7 +12648,7 @@ addcmd("cmdv3", {}, function(args, speaker)
 end)
 
 addcmd("kahscript", {}, function(args, speaker)
-         loadstring(game:HttpGet("https://rawscripts.net/raw/Kohls-Admin-House-NBC-Updated-script-26653"))();
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/KAH/refs/heads/main/Some%20random%20K.A.H%20script%20I%20found"))();
 end)
 
 addcmd("alignmentkeys", {}, function(args, speaker)
