@@ -12659,6 +12659,14 @@ addcmd("nordvpn", {}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Nord-VPN"))();
 end)
 
+addcmd("furrify", {}, function(args, speaker)
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Furry"))();
+end)
+
+addcmd("furrify2", {}, function(args, speaker)
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Furry%20%232"))();
+end)
+
 addcmd("alignmentkeys", {}, function(args, speaker)
 	alignmentKeys = UserInputService.InputBegan:Connect(function(input, gameProcessed)
 		if gameProcessed then return end
