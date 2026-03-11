@@ -3,7 +3,7 @@
 if game.PlaceId == 14747334292 then -- Change ROBLOX Place ID to whatever Kohls Admin House you're playing.
 
     getgenv().autoregen = false
-    getgenv().autoget = true
+    getgenv().autoget = false
  
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("kohls admin house", "Sentinel")
