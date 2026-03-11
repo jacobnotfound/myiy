@@ -12671,6 +12671,10 @@ addcmd("clean", {"clr"}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Clear"))();
 end)
 
+addcmd("periastrons", {"prs"}, function(args, speaker)
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Periastrons"))();
+end)
+
 addcmd("alignmentkeys", {}, function(args, speaker)
 	alignmentKeys = UserInputService.InputBegan:Connect(function(input, gameProcessed)
 		if gameProcessed then return end
