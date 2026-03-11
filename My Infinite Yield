@@ -2114,7 +2114,7 @@ function chatMessage(str)
 	if not isLegacyChat then
 		TextChatService.TextChannels.RBXGeneral:SendAsync(str)
 	else
-		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "System")
+		ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(str, "System")
 	end
 end
 
