@@ -12683,6 +12683,10 @@ addcmd("vehicles", {}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Vehicles"))();
 end)
 
+addcmd("hell", {}, function(args, speaker)
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Hell"))();
+end)
+
 addcmd("alignmentkeys", {}, function(args, speaker)
 	alignmentKeys = UserInputService.InputBegan:Connect(function(input, gameProcessed)
 		if gameProcessed then return end
