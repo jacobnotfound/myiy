@@ -6508,7 +6508,7 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if KeepInfYield and (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/jacobnotfound/KAH/refs/heads/main/My%20Infinite%20Yield'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/jacobnotfound/DISCONTINUED/refs/heads/main/My%20Infinite%20Yield'))()")
 	end
 end)
 
