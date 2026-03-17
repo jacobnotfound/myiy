@@ -12647,14 +12647,6 @@ addcmd("cmdv3", {}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/quivings/KAH/refs/heads/main/CMD%20v3.lua"))();
 end)
 
-addcmd("kahscript", {}, function(args, speaker)
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/KAH/refs/heads/main/Some%20random%20K.A.H%20script%20I%20found"))();
-end)
-
-addcmd("joiningmessage", {"jm"}, function(args, speaker)
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Joining%20Message"))();
-end)
-
 addcmd("nordvpn", {}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Nord-VPN"))();
 end)
@@ -12667,16 +12659,8 @@ addcmd("furrify2", {}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Furry%20%232"))();
 end)
 
-addcmd("clean", {"clr"}, function(args, speaker)
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Clear"))();
-end)
-
 addcmd("periastrons", {"prs"}, function(args, speaker)
          loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Periastrons"))();
-end)
-
-addcmd("bring", {}, function(args, speaker)
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/jacobnotfound/Chat-Strings/refs/heads/main/Bring"))();
 end)
 
 addcmd("vehicles", {}, function(args, speaker)
